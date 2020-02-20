@@ -1,0 +1,32 @@
+{
+  "name": "github-actions-playground-core-2",
+  "version": "1.0.0-alpha",
+  "description": "A small app to test github actions -- core",
+  "main": "packages/src/index.ts",
+  "scripts": {
+    "transpile": "npx tsc",
+    "lint": "npm run tslint",
+    "test": "npx jest --coverage",
+    "tslint": "npx tslint \"**/*.ts\" -e \"**/node_modules/**\"",
+    "tslint:fix": "npm run tslint -- --fix"
+  },
+  "author": "Junjie,Tang",
+  "devDependencies": {
+    "npm-audit-ci-wrapper": "^2.4.1",
+    "ts-jest": "^24.0.2",
+    "ts-node": "^8.0.3",
+    "tslint": "5.20.1",
+    "typescript": "^3.3.4000"
+  },
+  "dependencies": {
+    "@types/jest": "^24.0.25",
+    "express": "^4.16.4",
+    "jest": "^24.9.0",
+    "jest-junit": "^6.4.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "tslint-plugin-blank-line": "0.0.9"
+  },
+  "engines": {
+    "node": ">=11.0.0"
+  }
+}
