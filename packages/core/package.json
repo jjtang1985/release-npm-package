@@ -3,6 +3,9 @@
   "version": "1.17.4",
   "description": "A small app to test github actions -- core",
   "main": "packages/src/index.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "transpile": "npx tsc",
     "lint": "npm run tslint",
@@ -28,6 +31,5 @@
   },
   "engines": {
     "node": ">=11.0.0"
-  },
-  "gitHead": "1d6119ec8e4738ff3b2a1e871a42875f9484c614"
+  }
 }
