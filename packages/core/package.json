@@ -1,5 +1,5 @@
 {
-  "name": "@junjie/github-actions-playground-core-4",
+  "name": "github-actions-playground-core-4",
   "version": "1.17.6",
   "description": "A small app to test github actions -- core",
   "main": "packages/src/index.ts",
@@ -32,5 +32,5 @@
   "engines": {
     "node": ">=11.0.0"
   },
-  "gitHead": "a0331c95732c8ebd3a72f45b2d06a3d31ef86154"
+  "gitHead": "f431eb75ee63a674ca1c58086c01c6ab0804bbc2"
 }
