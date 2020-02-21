@@ -1,6 +1,6 @@
 {
   "name": "github-actions-playground-core-2",
-  "version": "1.0.0-alpha",
+  "version": "1.17.3-alpha",
   "description": "A small app to test github actions -- core",
   "main": "packages/src/index.ts",
   "scripts": {
