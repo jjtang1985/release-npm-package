@@ -1,5 +1,5 @@
 {
-  "name": "github-actions-playground-core-4",
+  "name": "@jjt/github-actions-playground-core-5",
   "version": "1.17.7",
   "description": "A small app to test github actions -- core",
   "main": "packages/src/index.ts",
