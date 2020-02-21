@@ -20,16 +20,8 @@ jobs:
         node --version
         npm run bootstrap
         ls node_modules
-    - name: Transpile
-      run: npm run transpile
-    - name: Test
-      run: npm run test
-    - name: Lint
-      run: npm run lint
-    - name: License check
-      run: npm run check-license
-    - name: CI audit
-      run: npm run ci-audit
+    - name: show version
+      run: git describe --always --long --dirty --match 'v*.*.*' --first-parent
     - name: Publish canary
       run: |
         echo '//registry.npmjs.org/:_authToken=${NPM_PUBLISH_TOKEN}' >> .npmrc
