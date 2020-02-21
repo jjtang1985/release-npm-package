@@ -1,5 +1,5 @@
 {
-  "name": "@jjt/github-actions-playground-core-5",
+  "name": "@jjtang/github-actions-playground-core-5",
   "version": "1.17.8",
   "description": "A small app to test github actions -- core",
   "main": "packages/src/index.ts",
@@ -32,5 +32,5 @@
   "engines": {
     "node": ">=11.0.0"
   },
-  "gitHead": "f431eb75ee63a674ca1c58086c01c6ab0804bbc2"
+  "gitHead": "fbb117dcd57692f0ed38408d4bf4b95599b7d95f"
 }
