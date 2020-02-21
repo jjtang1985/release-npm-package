@@ -1,6 +1,6 @@
 {
   "name": "@junjie/github-actions-playground-core-4",
-  "version": "1.17.4",
+  "version": "1.17.3",
   "description": "A small app to test github actions -- core",
   "main": "packages/src/index.ts",
   "publishConfig": {
