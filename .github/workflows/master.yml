@@ -25,6 +25,6 @@ jobs:
     - name: Publish canary
       run: |
         echo '//registry.npmjs.org/:_authToken=${NPM_PUBLISH_TOKEN}' >> .npmrc
-        npm run release-canary
+        # npm run release-canary
       env:
         NPM_PUBLISH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}

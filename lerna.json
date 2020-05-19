@@ -1,6 +1,7 @@
 {
   "packages": [
+    "packages/util",
     "packages/core"
   ],
-  "version": "1.17.9"
+  "version": "1.0.0"
 }

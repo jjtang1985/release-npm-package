@@ -1,3 +1,4 @@
+import {getWarningMsg} from "@jjtang/github-actions-playground-util";
 
 main();
 
@@ -7,6 +8,7 @@ function main() {
 }
 
 export function getNewResult(): number[] {
+    console.info(getWarningMsg());
     return Array.from({ length: 6 }, () => getRandomInt(10));
 }
 
