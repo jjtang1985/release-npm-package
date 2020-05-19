@@ -9,6 +9,7 @@ function main() {
 
 export function getNewResult(): number[] {
     console.info(getWarningMsg());
+    console.info('[1.1.0-1]');
     return Array.from({ length: 6 }, () => getRandomInt(10));
 }
 
