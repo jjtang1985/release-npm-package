@@ -18,10 +18,7 @@ jobs:
     - name: Build
       run: |
         node --version
-        npm run bootstrap
-        ls node_modules
-    - name: show version
-      run: git describe --always --long --dirty --match 'v*.*.*' --first-parent
+        npm install
     - name: Publish canary
       run: |
         echo '//registry.npmjs.org/:_authToken=${NPM_PUBLISH_TOKEN}' >> .npmrc
