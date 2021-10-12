@@ -23,6 +23,7 @@ jobs:
       run: |
         echo '//registry.npmjs.org/:_authToken=${NPM_PUBLISH_TOKEN}' >> .npmrc
         date=`date +%Y%m%d%H%M%S`
-        npx lerna publish --canary minor --no-push --no-git-tag-version --dist-tag beta --force-publish --preid ${date} -y
+        preid = `$date-beta`
+        npx lerna publish --canary major --no-push --no-git-tag-version --dist-tag beta --force-publish --preid ${preid} -y
       env:
         NPM_PUBLISH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
