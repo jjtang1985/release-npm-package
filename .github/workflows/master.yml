@@ -22,7 +22,8 @@ jobs:
     - name: Publish canary
       run: |
         echo '//registry.npmjs.org/:_authToken=${NPM_PUBLISH_TOKEN}' >> .npmrc
+        yarn lerna publish from-package --force-publish -y
         date=`date +%Y%m%d%H%M%S`
-        npx lerna publish --canary --no-push --no-git-tag-version --dist-tag canary --force-publish --preid ${date} -y
+        # npx lerna publish --canary --no-push --no-git-tag-version --dist-tag canary --force-publish --preid ${date} -y
       env:
         NPM_PUBLISH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}

@@ -1,6 +1,6 @@
 {
   "name": "@jjtang/github-actions-playground-util",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A small app to test github actions -- util",
   "main": "./dist/index.js",
   "publishConfig": {
